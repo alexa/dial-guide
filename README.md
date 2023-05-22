@@ -1,9 +1,10 @@
 ## Dialguide: Aligning Dialogue Model Behavior with Developer Guidelines
 
+Link to paper  [Link](https://arxiv.org/abs/2212.10557)
 
 Dialogue models have the ability to generate coherent and fluent responses, but controlling their behavior can be challenging, as they may produce non-engaging or unsafe outputs. This unpredictability undermines user trust and limits their real-world utility. To tackle this issue, we present DIALGUIDE, a novel framework that enables control over dialogue model behavior through natural language rules, referred to as guidelines. These guidelines specify the applicable context and the desired content of the response, aligning the models more closely with developer expectations and intentions. We evaluate DIALGUIDE on three tasks related to open-domain dialogue response generation: guideline selection, response generation, and response entailment verification. Our dataset consists of 10,737 positive and 15,467 negative dialogue context-response-guideline triplets spanning two domains: chit-chat and safety. Baseline models are provided for each task, and their performance is benchmarked. The results demonstrate that DIALGUIDE effectively produces safe and engaging responses that adhere to developer guidelines.
 
-<img src="/figures/dialguide-teaser.png" width="200" height="600">
+<img src="/figures/dialguide-teaser.png" width="500" height="600">
 
 
 ## Dataset description
